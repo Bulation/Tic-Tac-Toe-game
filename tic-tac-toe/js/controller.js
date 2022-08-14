@@ -25,8 +25,6 @@ export default class Controller {
     this.github = new Component(this.footerContainer.node, 'a', 'footer-item footer__github', 'Bulation');
     this.github.node.href = 'https://github.com/Bulation';
     this.year = new Component(this.footerContainer.node, 'time', 'footer-item footer__year', '2022');
-    this.logo = new Component(this.footerContainer.node, 'a', 'footer-item footer__logo', '');
-    this.logo.node.href = 'https://rs.school/js';
     this.title = new Component(this.main.node, 'h1', '', 'Tic-Tac Toe');
     this.mainCycle();
   }
